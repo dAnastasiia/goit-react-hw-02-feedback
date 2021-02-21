@@ -1,0 +1,16 @@
+.button {
+  margin: 0;
+  margin-right: 10px;
+  padding: 5px 10px;
+
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+
+  border-radius: 2px;
+
+  &:active {
+    color: #ffffff;
+    background-color: #2196f3;
+  }
+}
