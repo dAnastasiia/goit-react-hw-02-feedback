@@ -9,8 +9,13 @@
 
   border-radius: 2px;
 
-  &:active {
+  &:active,
+  &:hover,
+  &:focus {
     color: #ffffff;
     background-color: #2196f3;
+    cursor: pointer;
+
+    transform: scale(1.1);
   }
 }
